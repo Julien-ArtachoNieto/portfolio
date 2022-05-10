@@ -1,0 +1,40 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:60px;
+    box-shadow: 1px 1px 2px black;
+    color:var(--font-color-dark);
+}
+/*------------- NAVBAR BTN -------------*/
+.navbar-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    width:50px;
+    border:solid 2px var(--font-color-dark);
+    border-radius: 5px;
+}
+.navbar-btn-line{
+    display: flex;
+    margin: 0 15% 0 15%;
+    border: 1px solid white;
+}
+/*---------------------------------------*/
+
+.navbar-menu{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.navbar-menu-item{
+    margin:10px;
+}
+.navbar-menu-item:hover{
+    text-decoration: underline white;
+}
+em{
+    color:white;
+}
+
