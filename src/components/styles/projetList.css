@@ -1,0 +1,25 @@
+.projets-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    border: solid 1px var(--font-color-primary-dark-theme);
+    border-radius: var(--global-border-radius);
+    margin: 2% 0 2% 0;
+    box-shadow: 5px 5px 5px black;
+
+}
+.projets-titre{
+    color:var(--font-color-primary-dark-theme)
+}
+.projets-description{
+    color: var(--font-color-secondary-dark-theme);
+}
+.projets-stack-list{
+    display: flex;
+    color: var(--font-color-secondary-dark-theme);
+    font-style: italic;
+}
+.projets-stack-list-item{
+    margin:0 15px 0 0;
+}

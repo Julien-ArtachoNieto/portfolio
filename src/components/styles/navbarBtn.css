@@ -1,0 +1,14 @@
+.navbar-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    width:50px;
+    border:solid 2px var(--font-color-primary-dark-theme);
+    border-radius: var(--global-border-radius);
+}
+.navbar-btn-line{
+    display: flex;
+    margin: 0 15% 0 15%;
+    border: 1px solid var(--font-color-secondary-dark-theme);
+}

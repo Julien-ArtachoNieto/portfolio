@@ -1,0 +1,25 @@
+.carousel-container{
+    display: flex;
+    justify-content: space-between;
+    height:200px;
+    width:auto;
+    margin-bottom: 16px;
+}
+.carousel-img{
+    height: 100%;
+    width:auto;
+    border:solid 1px black;
+}
+.carousel-img:hover{
+    transform: scale(1.1);
+}
+.carousel-btn{
+    /*border: solid 1px black;*/
+    margin:auto 0 auto 0;
+}
+.carousel-btn > img {
+    height:auto;
+    width:50px;
+
+}
+
