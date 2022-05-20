@@ -16,7 +16,8 @@
       "GitHub",
       "MySql"
     ],
-    "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"]
+    "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"],
+    "github": "https://github.com/WildCodeSchool/11-21-nobugnovember-G1-Front"
   },
   {
   "entreprise": "WildCodeSchool",
@@ -25,7 +26,8 @@
   "date_fin": "",
   "description": "Réalisation d'un site fictif pour l'école Poudlard pour permettre aux futurs élèves et professeurs de découvrir l'école et son campus.",
   "stack": ["HTML", "JavaScript","CSS","Git","GitHub"],
-    "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"]
+    "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"],
+    "github": "https://github.com/Mickaseg/projet1_poudlard"
   },
     {
     "entreprise": "WildCodeSchool",
@@ -34,6 +36,7 @@
     "date_fin": "",
     "description":"Site de VOD qui permet de choisir une selection de films en fonction de l'état émotionnel de l'utilisateur.",
     "stack": ["ReactJs","JavaScript", "HTML", "CSS", "NodeJs", "Git","GitHub","API"],
-      "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"]
+      "images": ["https://media.robertsspaceindustries.com/qtcdcfwccgze0/store_slideshow_large.jpg","https://robertsspaceindustries.com/media/s5gd47650nhd0r/store_slideshow_large/Hull_A_1_v002_compflat.jpg","https://robertsspaceindustries.com/media/0o5l4bzm2mgncr/store_slideshow_large/Hull_A_Blueprint.jpg"],
+      "github": ""
     }
 ]}

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px 0 20px;
+
     border: solid 1px var(--font-color-primary-dark-theme);
     border-radius: var(--global-border-radius);
     margin: 2% 0 2% 0;
@@ -10,10 +10,18 @@
 
 }
 .projets-titre{
-    color:var(--font-color-primary-dark-theme)
+    color:var(--font-color-primary-dark-theme);
+    border:solid 1px var(--font-color-primary-dark-theme);
+    border-radius: var(--global-border-radius);
+    background: linear-gradient(30deg,var(--font-color-primary-dark-theme) );
+    text-align: center;
+    height:auto;
+    width:100%;
+    margin:0;
 }
 .projets-description{
     color: var(--font-color-secondary-dark-theme);
+    padding: 0 20px 0 20px;
 }
 .projets-stack-list{
     display: flex;

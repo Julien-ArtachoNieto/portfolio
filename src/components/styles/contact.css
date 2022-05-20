@@ -1,10 +1,21 @@
 .contact-form-container{
     display: flex;
+    gap:10px;
     flex-direction: column;
     justify-content: center;
-    margin:0 auto 0 auto;
+    margin:5% auto 0 auto;
     width:300px;
+    color:var(--font-color-primary-dark-theme);
 }
 .contact-msg{
     height:150px;
+}
+.contact-form-submit-btn{
+    margin:48px auto 0 auto;
+}
+.modal-inner-ok-btn{
+    margin: auto;
+}
+.contact-speech{
+  text-align: center;
 }

@@ -1,9 +1,10 @@
 :root{
   --bg-color-dark-theme:#3B3B3B;
   --font-color-primary-dark-theme:#FF8106;
-  --font-color-secondary-dark-theme: white;
+  --font-color-primary-dark-theme-alternate:#3b2525;
+  --font-color-secondary-dark-theme: #C4C4C4;
   --font-global:'Chakra Petch', sans-serif;
-  --global-border-radius: 5px;
+  --global-border-radius: 8px;
 }
 
 body{ list-style:none;
@@ -27,5 +28,16 @@ input{
   border-color:var(--font-color-primary-dark-theme);
   background-color:var(--bg-color-dark-theme);
   border-radius: var(--global-border-radius);
+  color:var(--font-color-secondary-dark-theme)
+}
+button{
+  background-color: #FF8106;
+  font-weight: bold;
+  color:var(--font-color-secondary-dark-theme);
+  height:48px;
+  width:80%;
+  border-radius: var(--global-border-radius);
+}
+p{
   color:var(--font-color-secondary-dark-theme)
 }

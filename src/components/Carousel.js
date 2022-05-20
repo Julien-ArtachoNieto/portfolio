@@ -9,7 +9,9 @@ const Carousel =({listImg})=>{
   const innerCarousel = document.querySelector('.carousel-img')
 
   const changeImg=(sens)=>{
-
+    if(idImage==images.length-1){
+      setIdImage(0)
+    }
     if(sens==='left' && idImage > 0){
       setIdImage(idImage-1)
     }else if(sens==='right'&& idImage < images.length-1){

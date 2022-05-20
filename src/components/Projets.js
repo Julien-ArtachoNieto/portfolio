@@ -4,7 +4,7 @@ const Projets =() =>{
   return(
     <div>
       <section className="content-bloc">
-          {datas.projets.map((projet)=><ProjetsList nom_projet={projet.nom_projet} description={projet.description} stack={projet.stack} images={projet.images}/>)}
+          {datas.projets.map((projet)=><ProjetsList nom_projet={projet.nom_projet} description={projet.description} stack={projet.stack} images={projet.images} github={projet.github}/>)}
       </section>
     </div>
   )
