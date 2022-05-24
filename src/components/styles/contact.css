@@ -5,7 +5,10 @@
     justify-content: center;
     margin:5% auto 0 auto;
     width:300px;
-    color:var(--font-color-primary-dark-theme);
+    border-radius: var(--global-border-radius);
+    padding:3%;
+    color:var(--font-color-secondary-dark-theme);
+    background-color: var(--font-color-primary-dark-theme-alternate);
 }
 .contact-msg{
     height:150px;

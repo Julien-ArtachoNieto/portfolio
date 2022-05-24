@@ -34,13 +34,13 @@ const Contact =()=>{
       <p className="contact-speech">L'endroit parfait pour me contacter, me faire une proposition sérieuse ou bien un retour constructif. </p>
       <form className="contact-form-container" ref={form} onSubmit={sendEmail}>
         <label>Nom</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" required/>
         <label>Entreprise</label>
-        <input type="text" name="user_entreprise" />
+        <input type="text" name="user_entreprise" required/>
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" required/>
         <label>Message</label>
-        <textarea className="contact-msg" name="message" />
+        <textarea className="contact-msg" name="message" required/>
         <button className="contact-form-submit-btn" type="submit" >Envoyer</button>
       </form>
       <div className="modal-bg">

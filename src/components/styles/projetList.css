@@ -2,22 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    border: solid 1px var(--font-color-primary-dark-theme);
-    border-radius: var(--global-border-radius);
+    border-left: solid 3px var(--font-color-primary-dark-theme);
+    background-color: var(--font-color-primary-dark-theme-alternate);
+    border-top-right-radius: var(--global-border-radius);
     margin: 2% 0 2% 0;
-    box-shadow: 5px 5px 5px black;
-
 }
 .projets-titre{
     color:var(--font-color-primary-dark-theme);
-    border:solid 1px var(--font-color-primary-dark-theme);
     border-radius: var(--global-border-radius);
-    background: linear-gradient(30deg,var(--font-color-primary-dark-theme) );
-    text-align: center;
     height:auto;
     width:100%;
-    margin:0;
+    margin:0 0 0 2%;
 }
 .projets-description{
     color: var(--font-color-secondary-dark-theme);
@@ -30,4 +25,8 @@
 }
 .projets-stack-list-item{
     margin:0 15px 0 0;
+}
+.projet-link-github > img{
+    margin: 16px;
+    height: 32px;
 }

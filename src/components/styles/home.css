@@ -1,0 +1,26 @@
+.home-content{
+    display: flex;
+    margin:5% 20% 0 20%;
+    justify-content: space-around;
+}
+.home-stack-list{
+    border-left: solid 3px var(--font-color-primary-dark-theme);
+    padding-left: 2%;
+}
+.home-side-content{
+    background-color: var(--font-color-primary-dark-theme-alternate);
+    border-radius: var(--global-border-radius);
+    padding: 0 16px 0 16px;
+}
+.home-contact-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20%;
+}
+.home-photo{
+    height: 300px;
+    width:auto;
+    border: solid 10px var(--font-color-primary-dark-theme-alternate);
+    border-radius: var(--global-border-radius);
+    margin-left: 16px;
+}

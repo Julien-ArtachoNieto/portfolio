@@ -12,19 +12,3 @@
     margin: 0 15% 0 15%;
     border: 1px solid var(--font-color-secondary-dark-theme);
 }
-.navbar-btn-line{
-   animation-name: btn-line-anim;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-@keyframes btn-line-anim {
-    0%{
-
-
-    }
-    100%{
-        transform: rotate(45deg);
-        object-fit: cover;
-    }
-
-}
