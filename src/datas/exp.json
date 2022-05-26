@@ -1,0 +1,25 @@
+{
+  "experiences": [
+    {
+      "poste": "Formation Developpeur Web FullStack",
+      "entreprise": "WildCodeSchool",
+      "date_debut": "Novembre 2021",
+      "date_fin": "Avril 2022",
+      "description": "Formation intensive de 5 mois axée sur la pratique, le travail en groupe et le partage des connaissances entre stagiaires, j'ai travailler avec HTML/CSS, Javascript, NodeJs, ExpressJs, React, Git/Github, MySql"
+    },
+    {
+      "poste": "Artisan Boulanger - CDI",
+      "entreprise": "Auchan Dieppe",
+      "date_debut": "Septembre 2011",
+      "date_fin": "",
+      "description": "Travail en équipe de 6 boulangers en planning tournant (Nuit/Jour) en suivant un cadencier de production et des normes de fabrication ainsi qu'un contrôle de la traçabilités"
+    },
+    {
+      "poste": "Employé Magasin Polyvalent - CDD",
+      "entreprise": "Auchan Dieppe",
+      "date_debut": "2006",
+      "date_fin": "2011",
+      "description": "Période de multiple CDD sur de la mise en rayon,livraison,conseiller de vente multimédia, ..."
+    }
+  ]
+}

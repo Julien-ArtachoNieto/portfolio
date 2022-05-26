@@ -1,7 +1,7 @@
 .experiencesList-container{
     border-left: solid 3px var(--font-color-primary-dark-theme);
     background-color: var(--font-color-primary-dark-theme-alternate);
-    margin-top:4%;
+    margin-top:2%;
     padding-left: 2%;
     border-top-right-radius: var(--global-border-radius);
 }

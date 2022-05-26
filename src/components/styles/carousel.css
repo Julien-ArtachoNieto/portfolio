@@ -1,9 +1,9 @@
 .carousel-container{
     display: flex;
-    justify-content: space-between;
-    height:200px;
+    align-items: center;
+    height:2%;
     width:auto;
-    margin-bottom: 16px;
+    margin: 0 auto 16px auto;
 }
 .carousel-img{
     height: 100%;
@@ -14,11 +14,15 @@
     transform: scale(1.1);
 }
 .carousel-btn{
-    /*border: solid 1px black;*/
     margin:auto 0 auto 0;
 }
 .carousel-btn > img {
     height:auto;
     width:50px;
+}
+@media screen and (min-width: 1024px){
+    .carousel-container{
+        height:200px;
+    }
 }
 

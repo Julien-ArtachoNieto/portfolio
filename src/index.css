@@ -1,7 +1,7 @@
 :root{
   --bg-color-dark-theme:#3B3B3B;
   --font-color-primary-dark-theme:#FF8106;
-  --font-color-primary-dark-theme-alternate:#3b2525;
+  --font-color-primary-dark-theme-alternate:#4a4a4a;
   --font-color-secondary-dark-theme: #C4C4C4;
   --font-global:'Chakra Petch', sans-serif;
   --global-border-radius: 8px;
@@ -17,6 +17,7 @@ body{ list-style:none;
 a{
   text-decoration: none;
   color:var(--font-color-primary-dark-theme);
+  display: inline-block;
 }
 h1,h2,h3{
   color:var(--font-color-primary-dark-theme)
@@ -24,16 +25,16 @@ h1,h2,h3{
 li{
   list-style: none;
 }
-input{
+input, textarea{
   border-color:var(--font-color-primary-dark-theme);
-  background-color:var(--bg-color-dark-theme);
+  background-color:var(--font-color-secondary-dark-theme);
   border-radius: var(--global-border-radius);
-  color:var(--font-color-secondary-dark-theme)
+  color:black;
 }
 button{
-  background-color: #FF8106;
+  background-color: var(--font-color-secondary-dark-theme);
   font-weight: bold;
-  color:var(--font-color-secondary-dark-theme);
+  color:var(--bg-color-dark-theme);
   height:48px;
   width:80%;
   border-radius: var(--global-border-radius);
