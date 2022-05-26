@@ -6,8 +6,8 @@
     margin: 0 auto 16px auto;
 }
 .carousel-img{
-    height: 100%;
-    width:auto;
+    height: auto;
+    width:80%;
     border:solid 1px black;
 }
 .carousel-img:hover{

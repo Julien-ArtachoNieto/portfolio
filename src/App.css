@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-content: center;
-  margin: 0 10% 0 10%;
-  /*width: 50%;*/
+  margin: 0 3% 0 3%;
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .content-bloc{
+    margin: 0 10% 0 10%;
+  }
 }

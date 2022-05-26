@@ -7,13 +7,14 @@
     background-color: var(--font-color-primary-dark-theme-alternate);
     border-top-right-radius: var(--global-border-radius);
     margin: 2% 0 2% 0;
+    padding-left: 2%;
 }
 .projets-titre{
     color:var(--font-color-primary-dark-theme);
     border-radius: var(--global-border-radius);
     height:auto;
     width:100%;
-    margin:0 0 0 2%;
+    margin:2% 0 0 2%;
 }
 .projets-description{
     color: var(--font-color-secondary-dark-theme);
@@ -21,8 +22,10 @@
 }
 .projets-stack-list{
     display: flex;
+    flex-flow: wrap;
     color: var(--font-color-secondary-dark-theme);
     font-style: italic;
+    text-overflow: ellipsis;
 }
 .projets-stack-list-item{
     margin:0 15px 0 0;
@@ -30,4 +33,7 @@
 .projet-link-github > img{
     margin: 16px;
     height: 32px;
+}
+@media screen and (min-width: 1024px){
+
 }
