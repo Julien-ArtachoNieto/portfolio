@@ -22,10 +22,13 @@ const Carousel =({listImg})=>{
   return (
     <div className="carousel-container">
 
-      <div className="carousel-btn"  onClick={()=>changeImg('left')}><img src={leftArrow} alt="left arrow" /></div>
+      <div className="carousel-btn"  onClick={()=>changeImg('left')}>
+        <img src={leftArrow} alt="left arrow" />
+      </div>
       {images[idImage]?<img className="carousel-img"  src={images[idImage]} alt={idImage} />:""}
-
-      <div className="carousel-btn"  onClick={()=>changeImg('right')}><img src={rightArrow} alt="right arrow" /></div>
+      <div className="carousel-btn"  onClick={()=>changeImg('right')}>
+        <img src={rightArrow} alt="right arrow" />
+      </div>
 
 
     </div>

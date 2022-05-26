@@ -7,11 +7,11 @@ const Footer =()=>{
   return (
     <footer className='footer-container'>
       <p>Fait avec : </p>
-      <ul className="footer-link">
-        <li><img src={htmlLogo} alt='html5 logo' /></li>
-        <li><img src={cssLogo} alt='css3 logo' /></li>
-        <li><img src={jsLogo} alt='javascript logo' /></li>
-        <li><img src={reactLogo} alt='react logo' /></li>
+      <ul className="footer-link-container">
+        <li className="footer-link"><img src={htmlLogo} alt='html5 logo' /></li>
+        <li className="footer-link"><img src={cssLogo} alt='css3 logo' /></li>
+        <li className="footer-link"><img src={jsLogo} alt='javascript logo' /></li>
+        <li className="footer-link"><img src={reactLogo} alt='react logo' /></li>
       </ul>
     </footer>
   )

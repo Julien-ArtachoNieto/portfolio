@@ -4,18 +4,23 @@
     background-color: var(--font-color-primary-dark-theme-alternate);
     border-top: solid 1px var(--font-color-primary-dark-theme);
     justify-content: flex-end;
-    height:5%;
+    height:50px;
     width:100%;
     bottom: 0;
     margin:0;
-
 }
-.footer-link{
+.footer-link-container{
     display: flex;
+    align-content: center;
     justify-content: space-between;
+    height: 24px;
 }
-.footer-link  img{
-    height:24px;
-    width:24px;
+.footer-link {
+    height:100%;
+    width:auto;
     margin:0 8px 0 8px;
+}
+.footer-link > img{
+    border: solid 1px red;
+    height: 100%;
 }

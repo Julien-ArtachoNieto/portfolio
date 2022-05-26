@@ -1,3 +1,6 @@
+.home-content{
+    margin: 56px 1% 76px 1%;
+}
 .home-photo {
     display: none;
 }
@@ -27,7 +30,7 @@
 @media screen and (min-width: 1024px ) {
     .home-content {
         display: flex;
-        margin: 5% 20% 0 20%;
+        margin: 76px 20% 76px 20%;
         justify-content: space-around;
     }
 
