@@ -30,7 +30,7 @@ const Contact =()=>{
   };
 
   return (
-    <div className="contact-container">
+    <div className="content-bloc">
       <p className="contact-speech">L'endroit parfait pour me contacter, me faire une proposition sérieuse ou bien un retour constructif. </p>
       <form className="contact-form-container" ref={form} onSubmit={sendEmail}>
         <label>Nom</label>

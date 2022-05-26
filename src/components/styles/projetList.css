@@ -6,7 +6,7 @@
     border-left: solid 3px var(--font-color-primary-dark-theme);
     background-color: var(--font-color-primary-dark-theme-alternate);
     border-top-right-radius: var(--global-border-radius);
-    /*margin: 2% 0 2% 0;*/
+    margin: 2% 0 2% 0;
     padding-left: 2%;
 }
 .projets-titre{
