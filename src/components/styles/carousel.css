@@ -9,10 +9,6 @@
     object-fit:fill;
     height:100%;
     width:100%;
-    border:solid 1px black;
-}
-.carousel-img:hover{
-    transform: scale(1.1);
 }
 .carousel-btn{
     margin:auto 0 auto 0;
@@ -24,7 +20,7 @@
 
 @media screen and (min-width: 1024px){
     .carousel-container{
-        height:200px;
+        height:10%;
     }
 }
 
