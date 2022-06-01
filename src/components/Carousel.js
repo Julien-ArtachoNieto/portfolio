@@ -6,8 +6,6 @@ const Carousel =({listImg})=>{
 
   const [images,setImage]=useState(listImg)
   const [idImage,setIdImage]=useState(0)
-  const innerCarousel = document.querySelector('.carousel-img')
-
   const changeImg=(sens)=>{
     if(sens==='left' && idImage > 0){
       setIdImage(idImage-1)
@@ -16,7 +14,7 @@ const Carousel =({listImg})=>{
     }
     else if(sens==='right'&& idImage < images.length-1){
       setIdImage(idImage+1)
-    }else if(idImage==images.length-1){
+    }else if(idImage===images.length-1){
       setIdImage(0)
     }
 
