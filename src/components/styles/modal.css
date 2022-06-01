@@ -1,24 +1,31 @@
 .modal-bg{
     display: none;
     position:absolute;
-    background-color: #FF8106;
+    background-color: var(--font-color-primary-dark-theme-transparency);
     width:100%;
     height:100vh;
     top:0;
     left:0;
     z-index: 50;
-
-
-
 }
 .modal-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: var(--bg-color-dark-theme);
     text-align: center;
     color:var(--font-color-secondary-dark-theme);
-    margin:15% 20% 15% 20%;
+    margin:40% 20% auto 20%;
     border-radius: var(--global-border-radius);
     width: auto;
-    height:50%;
+    height:50vh;
     z-index:51;
-
+}
+.modal-inner-ok-btn{
+    margin:0 auto 0 auto;
+}
+@media screen and (min-width: 1024px){
+    .modal-inner{
+        margin:15% 20% 15% 20%;
+    }
 }

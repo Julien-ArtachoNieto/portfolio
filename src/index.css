@@ -1,10 +1,12 @@
 :root{
   --bg-color-dark-theme:#3B3B3B;
   --font-color-primary-dark-theme:#FF8106;
+  --font-color-primary-dark-theme-transparency: #FF810699;
   --font-color-primary-dark-theme-alternate:#4a4a4a;
   --font-color-secondary-dark-theme: #C4C4C4;
   --font-global:'Chakra Petch', sans-serif;
   --global-border-radius: 8px;
+
 }
 
 body{ list-style:none;

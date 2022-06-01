@@ -56,7 +56,7 @@ em{
     height:100vh;
     width: 100vw;
     animation: menu-mobil-pop;
-    animation-duration: 500ms;
+    animation-duration: 1s;
 }
 .navbar-menu-mobil{
     display: flex;
@@ -79,10 +79,10 @@ em{
 }
 @keyframes btn-menu-mobil-pop{
     0%{
-        color:var(--font-color-primary-dark-theme);
+        transform: scale(0);
     }
     100%{
-        display: var(--font-color-secondary-dark-theme);
+        transform: scale(1);
     }
 }
 @media screen and (min-width: 1024px ){
