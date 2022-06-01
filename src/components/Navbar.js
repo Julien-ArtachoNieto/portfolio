@@ -8,7 +8,7 @@ const Navbar = ()=>{
   const [toggle,setToggle]=useState(false)
   const displayMenu=()=>{
     const menu = document.querySelector('.navbar-menu-mobil-container')
-    if(!toggle) {
+    if(!toggle && window.innerWidth<1024) {
       menu.style = "display:flex"
       setToggle(true)
     }else{

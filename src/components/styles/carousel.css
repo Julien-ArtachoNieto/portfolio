@@ -19,6 +19,7 @@
 
 @media screen and (min-width: 1024px){
     .carousel-img{
+        object-fit: contain;
         height:500px;
         width:100%;
     }
