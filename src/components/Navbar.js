@@ -21,14 +21,14 @@ const Navbar = ()=>{
       <img className="navbar-icon" src={keyboardIcon} alt="" onClick={displayMenu}/>
       <h1 className="navbar-title">Julien Artacho~Nieto <em>Full-Stack Web developer</em></h1>
       <ul className='navbar-menu'>
-       <li className='navbar-menu-item'><NavLink to="/" >Home </NavLink></li>
+       <li className='navbar-menu-item'><NavLink to="portfolio" >Home </NavLink></li>
         <li className='navbar-menu-item'><NavLink to="projets">Projets</NavLink></li>
         <li className='navbar-menu-item'><NavLink to="experiences"> Expériences</NavLink></li>
         <li className='navbar-menu-item'><NavLink to="contact" >Contact </NavLink></li>
       </ul>
       <div className="navbar-menu-mobil-container">
         <ul className='navbar-menu-mobil'>
-          <li className='navbar-menu-item'><NavLink to="/" onClick={displayMenu}>Home </NavLink></li>
+          <li className='navbar-menu-item'><NavLink to="portfolio" onClick={displayMenu}>Home </NavLink></li>
           <li className='navbar-menu-item'><NavLink to="projets" onClick={displayMenu}>Projets</NavLink></li>
           <li className='navbar-menu-item'><NavLink to="experiences"onClick={displayMenu}> Expériences</NavLink></li>
           <li className='navbar-menu-item'><NavLink to="contact" onClick={displayMenu}>Contact </NavLink></li>
