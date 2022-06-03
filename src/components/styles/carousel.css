@@ -1,27 +1,31 @@
 .carousel-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     height:10%;
     width:auto;
     margin: 0 auto 16px auto;
 }
 .carousel-img{
     height:200px;
-    width:100%;
+    width:75%;
 }
 .carousel-btn{
     margin:auto 0 auto 0;
+    height:auto;
+    width:10%;
 }
 .carousel-btn > img {
-    height:auto;
-    width:50px;
+    width: 100%;
 }
 
 @media screen and (min-width: 1024px){
     .carousel-img{
-        object-fit: contain;
         height:500px;
-        width:100%;
+        width:95%;
+    }
+    .carousel-btn{
+        width:5%;
     }
 }
 
