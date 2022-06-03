@@ -9,6 +9,7 @@
 .carousel-img{
     height:200px;
     width:75%;
+    object-fit: contain;
 }
 .carousel-btn{
     margin:auto 0 auto 0;
